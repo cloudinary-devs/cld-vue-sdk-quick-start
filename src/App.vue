@@ -1,11 +1,9 @@
 <script setup>
-import QuickStart from './components/QuickStart.vue'
+import QuickStart from './components/QuickStart.vue';
 </script>
 
 <template>
-
-    <QuickStart />
-
+  <QuickStart />
 </template>
 
 <style scoped>
