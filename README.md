@@ -1,6 +1,6 @@
-# cld-vue3-sdk-quick-start
+# cld-vue-sdk-quick-start
 
-Quick start example for the [Cloudinary Vue 3 SDK docs](https://cloudinary.com/documentation/vue_quick_start).
+Quick start example for the [Cloudinary Vue.js SDK docs](https://cloudinary.com/documentation/vue_quick_start).
 
 
 ## Project Setup

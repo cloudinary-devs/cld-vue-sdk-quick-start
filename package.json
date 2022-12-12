@@ -1,5 +1,5 @@
 {
-  "name": "cld-vue3-sdk-quick-start",
+  "name": "cld-vue-sdk-quick-start",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@cloudinary/url-gen": "^1.8.6",
-    "@cloudinary/vue3": "^1.5.0",
+    "@cloudinary/vue": "^1.7.0",
     "vue": "^3.2.38"
   },
   "devDependencies": {
