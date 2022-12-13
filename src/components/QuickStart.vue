@@ -30,7 +30,7 @@ export default {
 
 <template>
   <div class="App-body">
-    <h1>Vue 3 Quick Start</h1>
+    <h1>Vue.js Quick Start</h1>
     <AdvancedImage :cldImg="myImg" />
   </div>
 </template>
