@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue';
 import { AdvancedImage } from '@cloudinary/vue';
 import { Cloudinary } from '@cloudinary/url-gen';
 import { fill } from '@cloudinary/url-gen/actions/resize';
@@ -12,10 +11,10 @@ const cld = new Cloudinary({
 });
 
 // Instantiate a CloudinaryImage object for the image with the public ID, 'docs/models'.
-const myImg = ref(cld.image('docs/models'));
+const myImg = cld.image('docs/models');
 
 // Resize to 250 x 250 pixels using the 'fill' crop mode.
-myImg.value.resize(fill().width(250).height(250));
+myImg.resize(fill().width(250).height(250));
 </script>
 
 <template>
